@@ -13,7 +13,7 @@ function calculoOperadores(){
     }
 
     else{
-        var resultadoCalculo = eval(primerNumero + operador + segundoNumero)
+        let resultadoCalculo = eval(primerNumero + operador + segundoNumero)
         document.getElementById('resultadoOperando').innerHTML = "<h3>" + resultadoCalculo + "</h3>";
     }
 
